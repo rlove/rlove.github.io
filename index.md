@@ -3,6 +3,5 @@ layout: index
 ---
 
 #Purpose#
-This site is a quick and dirty place for @rlove to host
-content that is result of open source work.
+This site is a quick and dirty place for [Robert Love](https://github.com/rlove) to host content that is result of open source work.
 
