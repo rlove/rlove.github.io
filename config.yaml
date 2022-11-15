@@ -41,7 +41,7 @@ params:
   tocopen: false
 
   editPost:
-    URL: "https://github.com/rlove.github.io/content"
+    URL: "https://github.com/rlove/rlove.github.io/blob/main/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
