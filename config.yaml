@@ -1,4 +1,99 @@
 baseURL: 'https://RobertLove.dev/'
 languageCode: en-us
-title: RobertLove.dev
+title: Robert Love
+author: Robert Love
+paginate: 5
 theme: PaperMod
+enableRobotsTXT: true
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  description: "The blog of Robert Love"
+  keywords: ["AWS",".Net","C#","Go","GoLang"]
+  author: "Robert Love"
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: true
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  editPost:
+    URL: "https://github.com/rlove.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  homeInfoParams:
+      enabled: true
+      Title: "The blog of Robert Love" # optional default will be site title
+      Content: |
+       - Which Robert Love [(disambiguation)](/posts/whoisrobertlove/).
+       - &nbsp;
+       - [RSS Site Feed](index.xml)
+
+  socialIcons:
+    - name: email
+      url: "https://mailhide.io/e/SPjGlpBK"
+    - name: twitter
+      url: "https://twitter.com/RobertLoveDev"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/93161/robert-love"
+    - name: linkedin
+      url:  "https://www.linkedin.com/in/robjlove/"
+    - name: Github
+      url: "https://github.com/rlove"
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+menu:
+  main:
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 10
+#   - identifier: categories
+#      name: categories
+#      url: /categories/
+#      weight: 20
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 30
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
