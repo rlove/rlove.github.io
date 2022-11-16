@@ -9,6 +9,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: https://robertlove.dev
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
