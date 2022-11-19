@@ -29,7 +29,8 @@ jobs:
 
       - name: Build
         run: hugo --minify
-
+      - name: Setup Pages
+        uses: actions/configure-pages@v1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
