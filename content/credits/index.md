@@ -64,4 +64,4 @@ Used [favicon.io](https://favicon.io/) by [John Sorrentino](https://twitter.com/
 
 ### Hosting, Discussions, and Deploy
 
-This site is hosted by [GitHub Pages](https://pages.github.com/).   Uses [GitHub Actions](https://github.com/features/actions) to convert Markdown to HTML with [Hugo](https://gohugo.io).   Uses [GitHub Discussions](https://github.com/features/discussions) for blog commenting system using the ][Giscus.App](https://giscus.app)
+This site is hosted by [GitHub Pages](https://pages.github.com/).   Uses [GitHub Actions](https://github.com/features/actions) to convert Markdown to HTML with [Hugo](https://gohugo.io).   Uses [GitHub Discussions](https://github.com/features/discussions) for blog commenting system using the [Giscus.App](https://giscus.app)
