@@ -1,6 +1,6 @@
 baseURL: 'https://RobertLove.dev/'
 languageCode: en-us
-title: Robert Love
+title: Rob's Technology Corner
 author: Robert Love
 paginate: 5
 theme: PaperMod
@@ -26,6 +26,7 @@ params:
 
   ShowReadingTime: true
   ShowShareButtons: true
+  ShareButtons: ["twitter","linkedin","facebook","reddit"]
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -33,10 +34,11 @@ params:
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: true
-  disableScrollToTop: true
+  disableScrollToTop: false
   comments: true
   hidemeta: false
   hideSummary: false
+  hideFooter: true
   showtoc: false
   tocopen: false
 
