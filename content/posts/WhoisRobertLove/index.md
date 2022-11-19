@@ -6,12 +6,12 @@ categories:
   - personal
 ShowToc: true
 TocOpen: true
-keywords: []
 ---
 There are multiple Robert Loves in the world.
 
 ## Robert Love on this site
 
+![2022 Photo](profile2022.png "2022 Photo")
 I am happily married with kids and live in Centerville, Utah.
 
 Online locations I typically use:
