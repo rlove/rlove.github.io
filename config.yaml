@@ -60,6 +60,8 @@ params:
       url: "https://mailhide.io/e/SPjGlpBK"
     - name: twitter
       url: "https://twitter.com/RobertLoveDev"
+    - name: mastodon
+      url: https://hachyderm.io/@rlove
     - name: stackoverflow
       url: "https://stackoverflow.com/users/93161/robert-love"
     - name: linkedin
